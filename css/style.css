@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+
+background: #405D9A;
+}
+.header_Content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+    width: 90%;
+}
+.form{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.email{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.email input{
+    outline: none;
+    height: 20px;
+    border: none;
+    margin-top: 4px;
+}
+.password{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.password input{
+    outline: none;
+    height: 20px;
+    border: none;
+    margin: 4px 0px;
+}
+.password h4{
+    font-size: 15px;
+    color: #b5c5da;
+    margin-bottom: 4px;
+}
+.submit{
+    margin-top: 18px;
+    margin-left: 9px;
+}
+input[type="submit"] {
+    padding: 5px 10px;
+    text-transform: capitalize;
+    background: #4267B2;
+    color: #fff;
+    font-weight: 600;
+    width: auto;
+    cursor: pointer;
+}
+.content_section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.background_section {
+    background: #EEF0F6;
+    height: 700px;
+}
+.left_side {
+    width: 50%;
+}
+.leftSideContent h1 {
+    color: #405D9A;
+    font-weight: 900;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.People_img img {
+    width: 100%;
+}
+
+.right_side {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.rightSideContent h1 {
+    font-size: 45px;
+    color: #2B2B2B;
+    font-weight: bold;
+}
+.rightSideContent h4 {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 9px 0px;
+}
+.first_name input[type="text"]{
+     
+        background: #fff;
+        font-size: 16px;
+        padding: 5px;
+        border-radius: 5px;
+        border-color: #B6C1D4;
+        outline: none;
+        height: 30px;
+    
+}
+.mble_number input[type="text"] {
+    width: 363px;
+    background: #fff;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #B6C1D4;
+    outline: none;
+    margin-top: 10px;
+    height: 30px;
+}
+.New_password input[type="password"] {
+    width: 363px;
+    background: #fff;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #B6C1D4;
+    outline: none;
+    margin: 10px 0px;
+    height: 30px;
+}
+.birthday label {
+    font-size: 20px;
+    display: flex;
+    color: #5f6773;
+    margin-top: 22px;
+}
+.birthday input[type="date"] {
+    width: 160px;
+    font-size: 17px;
+    padding: 0px 20px;
+    color: #94939B;
+    outline: none;
+    margin: 13px 0px;
+    height: 30px;
+}
+.gender label {
+    font-size: 20px;
+    display: flex;
+    color: #5f6773;
+}
+.gender_all {
+    font-size: 22px;
+    padding: 20px 0px;
+    color: #31343D;
+}
+.signUp input[type="submit"] {
+    padding: 9px 10px;
+    text-transform: capitalize;
+    background: #61A04E;
+    color: #fff;
+    font-weight: 600;
+    width: 152px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.paragraph {
+    margin-bottom: 20px;
+}
+.paragraph a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.password h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.paragraph a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
